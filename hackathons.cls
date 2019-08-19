@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{hackathons}[2019/04/30 CV class]
+\ProvidesClass{hackathons}[2019/08/18 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
@@ -44,6 +44,7 @@ Last Updated on
 
 % Name command
 \newcommand{\namesection}[3]{
+    \vspace{-10pt}
 	\raggedright{
 		\fontspec[Path = fonts/lato/]{Lato-Lig}
         \fontsize{40pt}{10cm}\selectfont #1 
@@ -57,7 +58,7 @@ Last Updated on
         \selectfont #3
     }
 	%\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\vspace{-15pt}
+% 	\vspace{2pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
