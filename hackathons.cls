@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=0.5cm, vmargin=0.5cm]{geometry}
+\usepackage[hmargin=0cm, vmargin=0.5cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
@@ -35,7 +35,7 @@
 % Date command
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
-\textblockorigin{0mm}{5mm} % start everyth
+\textblockorigin{0mm}{5mm} % start everything
 \newcommand{\lastupdated}{\begin{textblock}{60}(165,0)
 \color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on
